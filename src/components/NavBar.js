@@ -17,27 +17,27 @@ class NavBar extends Component {
               </NavLink>
               <NavLink 
               style={{ marginRight: '10px' }} 
-              to="/"
+              to="/all"
               >All News</NavLink>
               <NavLink 
               style={{ marginRight: '10px' }} 
-              to="/"
+              to="/new-york-times"
               >The New York Times</NavLink>
               <NavLink 
               style={{ marginRight: '10px' }} 
-              to="/"
+              to="/bbc"
               >BBC News</NavLink>
               <NavLink 
               style={{ marginRight: '10px' }} 
-              to="/index"
+              to="/npr"
               >NPR</NavLink>
               <NavLink 
               style={{ marginRight: '10px' }} 
-              to="/index"
+              to="/washington-post"
               >The Washington Post</NavLink>
               <NavLink 
               style={{ marginRight: '10px' }} 
-              to="/index"
+              to="/reuters"
               >Reuters</NavLink>
             </div>
           );
