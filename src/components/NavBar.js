@@ -18,6 +18,10 @@ class NavBar extends Component {
               <NavLink 
               style={{ marginRight: '10px' }} 
               to="/"
+              >All News</NavLink>
+              <NavLink 
+              style={{ marginRight: '10px' }} 
+              to="/"
               >The New York Times</NavLink>
               <NavLink 
               style={{ marginRight: '10px' }} 
