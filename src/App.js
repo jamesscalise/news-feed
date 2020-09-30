@@ -7,14 +7,15 @@ import {
 } from 'react-router-dom';
 import NavBar from "./components/NavBar"
 import Home from "./components/Home"
+import NewYorkTimes from "./components/NewYorkTimes"
 
 function App() {
   return (
     <Router>
       <div className="App">
         <NavBar />
-        <Home />
-
+        <Route  exact path="/" render={routerProps => <Home {...routerProps} />} />
+        <Route exact path="/new-york-times" render={routerProps => <NewYorkTimes {...routerProps} />}/>
       </div>
     </Router>
   );
