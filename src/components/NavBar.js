@@ -39,6 +39,10 @@ class NavBar extends Component {
               style={{ marginRight: '10px' }} 
               to="/reuters"
               >Reuters</NavLink>
+              <NavLink 
+              style={{ marginRight: '10px' }} 
+              to="/guardian"
+              >Guardian</NavLink>
             </div>
           );
     }
