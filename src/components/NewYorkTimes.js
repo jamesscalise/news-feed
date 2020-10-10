@@ -44,7 +44,7 @@ class NewYorkTimes extends Component {
 
     render (){
         return(
-            <div className="feed">test
+            <div className="feed">
                 {this.renderItems()}
             </div>
             
