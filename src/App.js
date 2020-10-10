@@ -12,7 +12,7 @@ import Wapo from "./components/Wapo"
 import BBC from "./components/BBC"
 import Reuters from "./components/Reuters"
 import NPR from "./components/NPR"
-import Guardian from "./components/Guardian"
+import GuardianComponent from "./components/Guardian"
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/npr" render={routerProps => <NPR {...routerProps} />}/>
         <Route exact path="/reuters" render={routerProps => <Reuters {...routerProps} />}/>
         <Route exact path="/bbc" render={routerProps => <BBC {...routerProps} />}/>
-        <Route exact path="/guardian" render={routerProps => <Guardian {...routerProps} />}/>
+        <Route exact path="/guardian" render={routerProps => <GuardianComponent {...routerProps} />}/>
       </div>
     </Router>
   );
