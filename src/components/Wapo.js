@@ -4,7 +4,7 @@ class Wapo extends Component {
 
     render (){
         return(
-            <div></div>
+            <div>Wapo</div>
         )
     }
 }  

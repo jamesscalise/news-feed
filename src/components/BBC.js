@@ -4,7 +4,7 @@ class BBC extends Component {
 
     render (){
         return(
-            <div></div>
+            <div>BBC</div>
         )
     }
 }  

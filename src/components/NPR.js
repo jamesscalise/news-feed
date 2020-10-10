@@ -4,7 +4,7 @@ class NPR extends Component {
 
     render (){
         return(
-            <div></div>
+            <div>NPR</div>
         )
     }
 }  

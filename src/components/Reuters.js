@@ -4,7 +4,7 @@ class Reuters extends Component {
 
     render (){
         return(
-            <div></div>
+            <div>Reuters</div>
         )
     }
 }  

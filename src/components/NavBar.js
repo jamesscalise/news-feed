@@ -33,7 +33,7 @@ class NavBar extends Component {
               >NPR</NavLink>
               <NavLink 
               style={{ marginRight: '10px' }} 
-              to="/washington-post"
+              to="/wapo"
               >The Washington Post</NavLink>
               <NavLink 
               style={{ marginRight: '10px' }} 
